@@ -54,7 +54,8 @@ go run github.com/steebchen/prisma-client-go generate
 
 ```powershell
 setx HASURA_GRAPHQL_ADMIN_SECRET "mydevsecret"
-hasur
+hasura console --project ./hasura
+```
 
 ```bash
 export HASURA_GRAPHQL_ADMIN_SECRET=mydevsecret
